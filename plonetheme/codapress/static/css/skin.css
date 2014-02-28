@@ -85,3 +85,7 @@ FHNW Header
     font-size: .875em;
     color: #000;
 }
+#fhnw-header h1 a,
+#fhnw-header h2 a  {
+    text-decoration: none;
+}
