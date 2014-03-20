@@ -3,7 +3,8 @@
 }
 
 #portal-personaltools{
-	margin-top:0px;
+    margin-top:0px;
+    top: -2px;
 }
 
 #aside {
@@ -24,12 +25,14 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 }
 
 #content {
-    width: 660px;
+    width: 630px;
 }
 
 #edit-bar{
     text-align: justify;
-    width: 666px;
+    width: 664px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 #edit-bar ul,
@@ -64,4 +67,15 @@ input.searchButton:hover{
 dl dd.portletItem {
     margin-top: -35px;
     padding: 0;
+}
+#content .documentDescription, #content #description {
+    margin-bottom: 1em;
+}
+.navTree {
+    margin-top: 3em;
+}
+#content div.newsImageContainer p.discreet {
+    background-color: rgba(40, 40, 40, 1);
+    top: -5px;
+    width: 189px;
 }
