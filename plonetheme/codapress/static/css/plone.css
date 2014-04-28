@@ -1,3 +1,43 @@
+#livesearchLegend {
+  display: none;
+}
+.livesearchContainer {
+  border: none !important;
+}
+#LSResult {
+  width: 301px;
+  margin-right: 49px;
+  z-index: 1000;
+  top: 51px;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+#LSResult .LSRow {
+  margin: 0;
+  padding: 0;
+}
+#LSResult .LSRow a {
+  border: none !important;
+  width: 290px;
+  margin: 0;
+  padding: 0 0 0 10px !important;
+}
+#LSResult .LSRow .LSDescr {
+  margin: 0 !important;
+  padding: 0 0 10px 10px;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+}
+#LSResult fieldset {
+  margin: 0;
+  padding: 0;
+  border-top: none;
+}
+/*-------------------------------------------------- */
+#listing-table {
+    width: 100%;
+}
 #portal-searchbox {
     margin: -25px 10px;
 }
