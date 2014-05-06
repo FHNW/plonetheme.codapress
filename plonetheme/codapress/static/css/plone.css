@@ -32,6 +32,9 @@
   margin: 0;
   padding: 0 0 0 10px !important;
 }
+.LSRow a {
+  background-image: none;
+}
 #LSResult .LSRow .LSDescr {
   margin: 0 !important;
   padding: 0 0 10px 10px;
