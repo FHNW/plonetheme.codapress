@@ -17,13 +17,22 @@
     <drop theme='//*[@id="slogan"]' />
     <prepend content='/html/head' theme='/html/head' />
 
+<<<<<<< HEAD
 
     <replace css:theme="#portal-title-main" css:content="#portal-title-main" />
     <replace css:theme="#portal-title-second" css:content="#portal-title-second" />
  
     
+=======
+    <replace css:theme="#portal-title-main a" css:content-children="#portal-title-main" />
+    <replace css:theme="#portal-title-second a" css:content-children="#portal-title-second" />
+
+>>>>>>> dc1be0d20d75207fb5de2c50596eb76298536b1c
     <copy attributes="href title" css:content='#portal-logo' css:theme='#header #logo a' />
-	<copy css:content='#portal-breadcrumbs' css:theme="#tray p.f-left"/>
+    <copy css:content='#portal-breadcrumbs' css:theme="#tray p.f-left"/>
+    <replace css:content='.documentActions ul' css:theme="#tray p.f-right" />
+    <drop css:content=".documentActions" />
+
     <!-- Body class -->
     <copy attributes="id class dir" css:theme="body" css:content="body"/>
     <!-- Pull in global navigation menu-->
@@ -33,23 +42,27 @@
 
     <prepend css:content='#portal-header .hiddenStructure' css:theme='#main' />
     <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="main"]' />
+    <!-- <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="fhnw-header"]' />-->
 
     <!-- Pull in content -->
-	<prepend css:content="#viewlet-above-content" css:theme-children="#tray"/>
-	<prepend css:content="#edit-bar" css:theme="#section"/>
-	<copy css:theme="#content" css:content-children="#content"/>
-	<before css:content="#viewlet-below-content" css:theme-children="#footer"/>
+    <prepend css:content="#viewlet-above-content" css:theme-children="#tray"/>
+    <prepend css:content="#edit-bar" css:theme="#section"/>
+    <copy css:theme="#content" css:content-children="#content"/>
+    <before css:content="#viewlet-below-content" css:theme-children="#footer"/>
+
     <!-- Drop global navigation menu's class-->
-    <drop attributes="class" css:content="#portal-column-content"/>
+    <drop attributes="class" css:content="#portal-column-content" />
+
     <!-- Pull in column 1 -->
     <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="aside"]' />
+
     <!-- Pull in search box -->
     <replace content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
     <!-- Drop global navigation menu's class-->
     <drop attributes="class" css:content="#portal-column-one"/>
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
     <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
-    <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
+    <!-- <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' /> -->
 
     <!--copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' /-->
 	<drop attributes="id" css:content="#portal-footer"/>
