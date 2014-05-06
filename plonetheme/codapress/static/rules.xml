@@ -17,17 +17,9 @@
     <drop theme='//*[@id="slogan"]' />
     <prepend content='/html/head' theme='/html/head' />
 
-<<<<<<< HEAD
-
-    <replace css:theme="#portal-title-main" css:content="#portal-title-main" />
-    <replace css:theme="#portal-title-second" css:content="#portal-title-second" />
- 
-    
-=======
     <replace css:theme="#portal-title-main a" css:content-children="#portal-title-main" />
     <replace css:theme="#portal-title-second a" css:content-children="#portal-title-second" />
 
->>>>>>> dc1be0d20d75207fb5de2c50596eb76298536b1c
     <copy attributes="href title" css:content='#portal-logo' css:theme='#header #logo a' />
     <copy css:content='#portal-breadcrumbs' css:theme="#tray p.f-left"/>
     <replace css:content='.documentActions ul' css:theme="#tray p.f-right" />
