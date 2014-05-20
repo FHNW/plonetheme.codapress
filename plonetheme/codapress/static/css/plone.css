@@ -43,6 +43,10 @@
   padding: 0;
   border-top: none;
 }
+.LSBox input.searchButton {
+  border: 0;
+  height: 25px;
+}
 /*-------------------------------------------------- */
 #listing-table {
     width: 100%;
