@@ -97,12 +97,13 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 	margin:0px;
 }
 
-input.searchButton {
+input[name="form.button.Search"] {
     background: url("../design/search-submit.png") no-repeat scroll 0 0 transparent;
     border: 0 none;
     color: transparent;
     height: 24px;
     margin-left: 6px;
+    margin-right: 10px;
     width: 24px;
 }
 input.searchButton:hover{
