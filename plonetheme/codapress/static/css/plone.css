@@ -48,6 +48,9 @@
   height: 25px;
 }
 /*-------------------------------------------------- */
+#groups_search .listing {
+  font-size: 10px;
+}
 #listing-table {
     width: 100%;
 }
