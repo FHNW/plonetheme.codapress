@@ -135,3 +135,7 @@ dl dd.portletItem {
     top: -5px;
     width: 189px;
 }
+.configlets li {
+  list-style-image: none !important;
+  margin-left: 0 !important;
+}
