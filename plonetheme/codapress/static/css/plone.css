@@ -140,3 +140,6 @@ dl dd.portletItem {
   list-style-image: none !important;
   margin-left: 0 !important;
 }
+.enableUnloadProtection fieldset {
+  padding: 15px;
+}
