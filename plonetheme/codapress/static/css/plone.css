@@ -14,8 +14,8 @@
   border: none !important;
 }
 #LSResult {
-  width: 301px;
-  margin-right: 44px;
+  width: 282px;
+  margin-right: 67px;
   z-index: 1000;
   top: 51px;
   border-right: 1px solid #eee;
@@ -27,12 +27,7 @@
 }
 #LSResult .LSRow a {
   border: none !important;
-  width: 290px;
-  margin: 0;
-  padding: 0 0 0 10px !important;
-  background: none !important;
-}
-#LSResult .LSRow .LSDescr {
+  width:100%;
   margin: 0 !important;
   padding: 0 0 10px 10px;
   font-weight: normal;
@@ -97,7 +92,7 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 	margin:0px;
 }
 
-input[name="form.button.Search"] {
+input[name="form.button.Search"], input[value="Suche"]{
     background: url("../design/search-submit.png") no-repeat scroll 0 0 transparent;
     border: 0 none;
     color: transparent;
