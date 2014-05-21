@@ -46,6 +46,9 @@
 #LSResult .LSDescr {
   padding-left: 20px;
 }
+.advancedsearchlink.advanced-search {
+    padding-left: 20px !important;
+}
 /*-------------------------------------------------- */
 #groups_search .listing {
   font-size: 10px;
