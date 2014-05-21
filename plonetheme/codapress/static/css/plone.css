@@ -144,7 +144,7 @@ dl dd.portletItem {
   padding: 15px;
 }
 .navTreeLevel1 li {
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 .navTreeLevel1 {
   margin-top: 0; 
