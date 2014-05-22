@@ -29,7 +29,7 @@
   border: none !important;
   width:100%;
   margin: 0 !important;
-  padding: 0 0 0 10px;
+  padding-left: 0 !important;
   font-weight: normal;
   border-bottom: 1px solid #ccc;
   background-image: none;
@@ -44,7 +44,7 @@
   height: 25px;
 }
 #LSResult .LSDescr {
-  padding-left: 20px;
+  padding: 20px 10px;
 }
 .advancedsearchlink.advanced-search {
     padding-left: 20px !important;
