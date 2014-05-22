@@ -29,7 +29,7 @@
   border: none !important;
   width:100%;
   margin: 0 !important;
-  padding: 0 0 10px 10px;
+  padding: 0 0 0 10px;
   font-weight: normal;
   border-bottom: 1px solid #ccc;
   background-image: none;
@@ -71,7 +71,8 @@
 
 dl.portlet dt, div.portletAssignments div.portletHeader {
     background: url("../design/title.png") no-repeat scroll 0 0 transparent;
-    font-size: 140%;
+Result .LSRow a
+
     font-weight: normal;
     height: 65px;
     line-height: 45px;
