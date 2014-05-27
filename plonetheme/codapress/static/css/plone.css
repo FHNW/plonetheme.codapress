@@ -154,3 +154,12 @@ dl dd.portletItem {
 .navTreeLevel1 {
   margin-top: 0; 
 }
+dd.portletItem p img {
+  display: block;
+  position: relative;
+  top: 30px;
+  width: auto;
+  clear: left;
+  margin: 0 auto 4em auto;
+  background: yellow;
+}
