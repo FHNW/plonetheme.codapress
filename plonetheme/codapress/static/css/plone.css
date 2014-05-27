@@ -131,9 +131,6 @@ dl dd.portletItem {
 #content .documentDescription, #content #description {
     margin-bottom: 1em;
 }
-.navTree {
-    margin-top: 3em;
-}
 #content div.newsImageContainer p.discreet {
     background-color: rgba(40, 40, 40, 1);
     top: -5px;
@@ -145,6 +142,9 @@ dl dd.portletItem {
 }
 .enableUnloadProtection fieldset {
   padding: 15px;
+}
+.navTreeLevel1 {
+  margin: 0;
 }
 .navTreeLevel1 li {
   padding-left: 0 !important;
