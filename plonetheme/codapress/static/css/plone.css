@@ -143,7 +143,9 @@ dl dd.portletItem {
 .enableUnloadProtection fieldset {
   padding: 15px;
 }
-.navTreeLevel1 {
+.navTreeLevel1,
+.navTreeLevel2,
+.navTreeLevel3 {
   margin: 0;
 }
 .navTreeLevel1 li {
