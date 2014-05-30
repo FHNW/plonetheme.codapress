@@ -15,6 +15,8 @@ setup(
         url='https://github.com/collective/plonetheme.codapress',
         packages=find_packages(),
         include_package_data=True,
+        license='privat',
+        zip_safe=False,
         namespace_packages=[
             'plonetheme'
             ],
